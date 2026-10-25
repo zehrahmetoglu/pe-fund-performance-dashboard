@@ -6,7 +6,7 @@ the standard PE performance metrics: **TVPI, DPI, RVPI and net IRR**, by vintage
 
 > Data as of **30 September 2025** · 462 active funds · vintages 1998–2025 · $147.6B committed
 
-![Overview page](images/overview.png)
+![Overview page](overview.png)
 
 ---
 
@@ -80,8 +80,8 @@ size in the portfolio is itself a finding, but strategy-level comparisons should
 2. **Vintage Analysis:** Realised vs unrealised value by vintage (DPI + RVPI stacked = TVPI), a cash-flow J-curve by fund age, and a vintage summary table
 3. **Fund Drill-down:** TVPI vs net IRR scatter (bubble = paid-in, colour = strategy), top 10 and bottom 10 funds by TVPI
 
-![Vintage Analysis](images/vintage_analysis.png)
-![Fund Drill-down](images/fund_drilldown.png)
+![Vintage Analysis](vintage_analysis.png)
+![Fund Drill-down](fund_drilldown.png)
 
 **Cross-sectional J-curve.** With a single snapshot, each fund's own J-curve over time cannot be plotted.
 Instead, funds are grouped by age and net cash flow, (Distributions − Paid-in) ÷ Committed, is plotted. Because
