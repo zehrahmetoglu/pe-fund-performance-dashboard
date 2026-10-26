@@ -122,16 +122,20 @@ def clean(df: pd.DataFrame, as_of) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------- 4. TAGGING
-# GP = the firm managing the fund. Fund names don't always contain the firm
-# name cleanly, so: known prefixes first, then first word as a fallback.
+# GP = the firm managing the fund. Known prefixes first; otherwise the firm name
+# is derived from the fund name by stripping legal suffixes, fund numbers and
+# generic words ("Blackstone Capital Partners VII, L.P." -> "Blackstone Capital").
 GP_PREFIXES = {
     "Green Equity Investors": "Leonard Green & Partners",
+    "Jade Equity": "Leonard Green & Partners",
     "Hellman & Friedman": "Hellman & Friedman",
     "Clayton, Dubilier & Rice": "Clayton, Dubilier & Rice",
     "Advent International": "Advent International",
     "Advent Global": "Advent International",
     "Bain Capital": "Bain Capital",
     "General Catalyst": "General Catalyst",
+    "GC Creation": "General Catalyst",
+    "GC Customer Value": "General Catalyst",
     "General Atlantic": "General Atlantic",
     "GA Continuity": "General Atlantic",
     "GCM Grosvenor": "GCM Grosvenor",
@@ -156,6 +160,9 @@ GP_PREFIXES = {
     "Genstar": "Genstar",
     "Francisco Partners": "Francisco Partners",
     "Bridgepoint": "Bridgepoint",
+    "BE VI": "Bridgepoint",
+    "BDC ": "Bridgepoint",
+    "Wigmore Street (BDC": "Bridgepoint",
     "Hg ": "Hg",
     "HongShan": "HongShan",
     "B Capital": "B Capital",
@@ -167,15 +174,72 @@ GP_PREFIXES = {
     "MFC Select": "Mayfield",
     "Onex": "Onex",
     "57 Stars": "57 Stars",
+    "AACP": "Asia Alternatives",
+    "AlpInvest": "AlpInvest Partners",
+    "Asia Alternatives": "Asia Alternatives",
+    "ASF ": "Ardian",
+    "ArcLight": "ArcLight Capital",
+    "First Reserve": "First Reserve",
+    "Riverstone": "Riverstone",
+    "Grain Communications": "Grain Management",
+    "GI ": "GI Partners",
+    "PAG ": "PAG",
+    "MBK": "MBK Partners",
+    "Silver Lake": "Silver Lake",
+    "SL SPV": "Silver Lake",
+    "TPG": "TPG",
+    "The Rise Fund": "TPG",
+    "Thoma Bravo": "Thoma Bravo",
+    "TowerBrook": "TowerBrook",
+    "Towerbrook": "TowerBrook",
+    "Trident": "Stone Point Capital",
+    "Triton": "Triton",
+    "Yucaipa": "Yucaipa",
+    "WCAS": "Welsh, Carson, Anderson & Stowe",
+    "Welsh, Carson": "Welsh, Carson, Anderson & Stowe",
+    "Wellspring": "Wellspring Capital",
+    "CalPERS Wellspring": "Wellspring Capital",
+    "California Community Venture": "CalPERS (FoF)",
+    "California Emerging Ventures": "CalPERS (FoF)",
+    "California Asia Investors": "CalPERS (FoF)",
+    "CalPERS Clean Energy": "CalPERS (FoF)",
+    "Sacramento Private Equity": "CalPERS (FoF)",
 }
+
+LEGAL_SUFFIX = re.compile(
+    r"[,\s]*\b(L\.?\s?P\.?|LLC|S\.?C\.?Sp\.?|S\.?L\.?P\.?|SCS|ILP|PCC|C\.V\.|AB|"
+    r"Co.?peratief U\.A\.|Cooperatief U\.A\.|Limited Partnership|a Delaware Limited Partnership)\s*$",
+    flags=re.I)
+NUM_TOKEN = re.compile(r"[\s,\-]+(?:[IVXLC]+(?:-[A-Z])?|\d+|[A-Z]|'[A-Z]')\.?$")
+WORD_TOKEN = re.compile(
+    r"\s+(?:Fund|Funds|Partners|Partnership|Investors|Investments?|Opportunit(?:y|ies)|SPV|Holdings|"
+    r"Onshore|Supplemental|Institutional|Parallel|Series)\.?$", flags=re.I)
+
+
+def gp_stem(name: str) -> str:
+    s = re.sub(r"\([^)]*\)", " ", name)           # drop "(onshore)", "(A)", "(C)" ...
+    s = s.split(" - ")[0].split(" / ")[0]
+    for _ in range(6):
+        s = LEGAL_SUFFIX.sub("", s).strip(" ,.-")
+    prev = None
+    while prev != s:
+        prev = s
+        cand = NUM_TOKEN.sub("", s).strip(" ,.-")    # fund numbers / letters: always strip
+        if cand:
+            s = cand
+        cand = WORD_TOKEN.sub("", s).strip(" ,.-")   # generic words: keep at least 2 words
+        if " " in cand:
+            s = cand
+    s = re.sub(r"\s+", " ", s)
+    # "SPRINGBLUE" -> "Springblue", but keep acronyms like "BC CLP" or "CF24XB"
+    return " ".join(w.title() if w.isalpha() and w.isupper() and len(w) > 4 else w for w in s.split())
 
 
 def gp_from_name(name: str) -> str:
     for prefix, gp in sorted(GP_PREFIXES.items(), key=lambda kv: -len(kv[0])):
         if name.startswith(prefix):
             return gp
-    first = re.sub(r"[^\w&\-]", "", name.split()[0])
-    return "Other / SPV" if first.isdigit() else first  # e.g. "2024 Golden Bay" -> review by hand
+    return gp_stem(name)
 
 
 # First matching rule wins, so order matters (most specific first).

@@ -1,5 +1,5 @@
 fund_name,gp_name,strategy,confidence
-"2024 Golden Bay, L.P.",Other / SPV,Other / Custom Vehicle,n/a
+"2024 Golden Bay, L.P.",2024 Golden Bay,Other / Custom Vehicle,n/a
 "2SP I, L.P.",2SP,Other / Custom Vehicle,n/a
 Amberbrook IX LP,Amberbrook,Other / Custom Vehicle,n/a
 "AMZL, LP",AMZL,Other / Custom Vehicle,n/a
@@ -7,118 +7,118 @@ Amberbrook IX LP,Amberbrook,Other / Custom Vehicle,n/a
 "Bain Capital Life Sciences Fund IV, L.P.",Bain Capital,Growth Equity,medium
 "Bain Capital Tech Opportunities Fund II, L.P.",Bain Capital,Buyout,high
 Baring Vostok Private Equity Fund IV L.P. / Supplemental,Baring Vostok,Buyout,medium
-"Bay State Partners, L.P.",Bay,Other / Custom Vehicle,n/a
-"BC CLP INVESTORS, L.P.",BC,Other / Custom Vehicle,n/a
+"Bay State Partners, L.P.",Bay State,Other / Custom Vehicle,n/a
+"BC CLP INVESTORS, L.P.",BC CLP,Other / Custom Vehicle,n/a
 BDC III C LP,Bridgepoint,Buyout,medium
 BDC IV D LP,Bridgepoint,Buyout,medium
 BDC V C LP,Bridgepoint,Buyout,medium
-"Bear Coast (CV) Fund, LP",Bear,Secondaries,low
-"Bear Coast Partnerships, L.P.",Bear,Other / Custom Vehicle,n/a
-"Bear Technology Fund, L.P.",Bear,Other / Custom Vehicle,n/a
+"Bear Coast (CV) Fund, LP",Bear Coast,Secondaries,low
+"Bear Coast Partnerships, L.P.",Bear Coast Partnerships,Other / Custom Vehicle,n/a
+"Bear Technology Fund, L.P.",Bear Technology,Other / Custom Vehicle,n/a
 BjorkTree AB,BjorkTree,Other / Custom Vehicle,n/a
 Blackstone Communications Partners I L.P.,Blackstone,Buyout,high
-"Blackwell Capital Partners, LP",Blackwell,Other / Custom Vehicle,n/a
+"Blackwell Capital Partners, LP",Blackwell Capital,Other / Custom Vehicle,n/a
 "BRV Lotus Fund III, L.P.",BRV (BlueRun Ventures),Venture Capital,medium
 "Butterfly II, LP",Butterfly Equity,Buyout,medium
-"CA1 SPV, L.P.",CA1,Other / Custom Vehicle,n/a
-"Calah Opportunities, L.P.",Calah,Other / Custom Vehicle,n/a
+"CA1 SPV, L.P.",CA1 SPV,Other / Custom Vehicle,n/a
+"Calah Opportunities, L.P.",Calah Opportunities,Other / Custom Vehicle,n/a
 "California Asia Investors, L.P.",CalPERS (FoF),Fund of Funds,low
-"California Partners, L.P.",California,Other / Custom Vehicle,n/a
+"California Partners, L.P.",California Partners,Other / Custom Vehicle,n/a
 "CalPERS Clean Energy & Technology Fund, LLC",CalPERS (FoF),Fund of Funds,medium
-"CalPERS Corporate Partners, LLC",CalPERS,Other / Custom Vehicle,n/a
+"CalPERS Corporate Partners, LLC",CalPERS Corporate,Other / Custom Vehicle,n/a
 "Carlyle U.S. Equity Opportunities II, L.P.",Carlyle,Buyout,high
 "CDH Fund V, L.P.",CDH Investments,Buyout,medium
-Cedar Street Partners LP,Cedar,Other / Custom Vehicle,n/a
+Cedar Street Partners LP,Cedar Street,Other / Custom Vehicle,n/a
 CF24XB SCSp,CF24XB,Other / Custom Vehicle,n/a
 "China Privatization Fund (Del), L.P.",China Privatization Fund,Buyout,low
 "Clearlake Opportunities Partners (P), L.P.",Clearlake,Credit / Special Sits,high
 "Clearwater Capital Partners Fund III, L.P.",Clearwater Capital,Credit / Special Sits,medium
 "Coalesce Capital Fund I, L.P.",Coalesce Capital,Growth Equity,low
-"Coastal Pacific Partners, L.P.",Coastal,Other / Custom Vehicle,n/a
-"Cobalt Investment Fund, L.P.",Cobalt,Other / Custom Vehicle,n/a
+"Coastal Pacific Partners, L.P.",Coastal Pacific,Other / Custom Vehicle,n/a
+"Cobalt Investment Fund, L.P.",Cobalt Investment,Other / Custom Vehicle,n/a
 "Coefficient Capital Apex Fund I, LP",Coefficient Capital,Growth Equity,medium
 "Coefficient Capital Fund II, LP",Coefficient Capital,Growth Equity,medium
-Corps of Discovery LP,Corps,Other / Custom Vehicle,n/a
+Corps of Discovery LP,Corps of Discovery,Other / Custom Vehicle,n/a
 "Crosspoint Capital Fund II, LP",Crosspoint Capital,Buyout,low
 "Crosspoint Capital ISB Fund I, LP",Crosspoint Capital,Buyout,low
-CV Consortio Fund L.P.,CV,Secondaries,low
-DS Opportunities (C) LP,DS,Other / Custom Vehicle,n/a
-"EII-C SPV, LP",EII-C,Other / Custom Vehicle,n/a
-"Equip Opportunities Fund, L.P.",Equip,Other / Custom Vehicle,n/a
-Essential Innovation Partners (Opportunities) LP,Essential,Other / Custom Vehicle,n/a
-Essential Innovation Partners LP,Essential,Other / Custom Vehicle,n/a
+CV Consortio Fund L.P.,CV Consortio,Secondaries,low
+DS Opportunities (C) LP,DS Opportunities,Other / Custom Vehicle,n/a
+"EII-C SPV, LP",EII-C SPV,Other / Custom Vehicle,n/a
+"Equip Opportunities Fund, L.P.",Equip Opportunities,Other / Custom Vehicle,n/a
+Essential Innovation Partners (Opportunities) LP,Essential Innovation,Other / Custom Vehicle,n/a
+Essential Innovation Partners LP,Essential Innovation,Other / Custom Vehicle,n/a
 ForCal I Investment Fund C.V.,ForCal,Other / Custom Vehicle,n/a
 "Forecastle, L.P.",Forecastle,Other / Custom Vehicle,n/a
-Fourth Street Partners - CPS L.P.,Fourth,Other / Custom Vehicle,n/a
-"FSP LR, L.P.",FSP,Other / Custom Vehicle,n/a
-"Gaia Investments, S.L.P.",Gaia,Other / Custom Vehicle,n/a
-"GB Palisade Partners, L.P.",GB,Other / Custom Vehicle,n/a
+Fourth Street Partners - CPS L.P.,Fourth Street,Other / Custom Vehicle,n/a
+"FSP LR, L.P.",FSP LR,Other / Custom Vehicle,n/a
+"Gaia Investments, S.L.P.",Gaia Investments,Other / Custom Vehicle,n/a
+"GB Palisade Partners, L.P.",GB Palisade,Other / Custom Vehicle,n/a
 "GC Customer Value Fund, L.P.",General Catalyst,Growth Equity,medium
 "Generation IM Sustainable Private Equity Fund II (A), ILP",Generation IM,Growth Equity,medium
 "Genstar X Opportunities Fund I, L.P.",Genstar,Co-Investment,medium
 "Genstar XI Opportunities Fund I, L.P.",Genstar,Co-Investment,medium
-GIM LTE Hazel L.P.,GIM,Other / Custom Vehicle,n/a
-"Gold Hills Partners, L.P.",Gold,Other / Custom Vehicle,n/a
-"Gorseway Park PE, L.P.",Gorseway,Other / Custom Vehicle,n/a
+GIM LTE Hazel L.P.,GIM LTE Hazel,Other / Custom Vehicle,n/a
+"Gold Hills Partners, L.P.",Gold Hills,Other / Custom Vehicle,n/a
+"Gorseway Park PE, L.P.",Gorseway Park PE,Other / Custom Vehicle,n/a
 "Grandval II, L.P.",Grandval,Other / Custom Vehicle,n/a
 "Grandval, L.P.",Grandval,Other / Custom Vehicle,n/a
 "GreatPoint Opportunity Fund I, L.P.",GreatPoint Ventures,Venture Capital,low
 "Griffin Gaming Partners III, L.P.",Griffin Gaming Partners,Venture Capital,high
 "GSC I, L.P.",GSC,Other / Custom Vehicle,n/a
 "H.I.G. Europe Middle Market LBO Fund, L.P.",H.I.G. Capital,Buyout,high
-Hanover Opportunities LP,Hanover,Other / Custom Vehicle,n/a
-"Healthcare and Fintech, L.P.",Healthcare,Other / Custom Vehicle,n/a
-"Highland Citrus Holdings, L.P.",Highland,Other / Custom Vehicle,n/a
-"Innovation Opportunities, L.P.",Innovation,Other / Custom Vehicle,n/a
+Hanover Opportunities LP,Hanover Opportunities,Other / Custom Vehicle,n/a
+"Healthcare and Fintech, L.P.",Healthcare and Fintech,Other / Custom Vehicle,n/a
+"Highland Citrus Holdings, L.P.",Highland Citrus,Other / Custom Vehicle,n/a
+"Innovation Opportunities, L.P.",Innovation Opportunities,Other / Custom Vehicle,n/a
 "Jade Equity Investors II, L.P.",Leonard Green & Partners,Buyout,medium
 "Jade Equity Investors, L.P.",Leonard Green & Partners,Buyout,medium
-"JSC Capital Partners, L.P.",JSC,Other / Custom Vehicle,n/a
+"JSC Capital Partners, L.P.",JSC Capital,Other / Custom Vehicle,n/a
 "K5 Private Investors, L.P.",K5 Global,Growth Equity,low
 "KM Corporate Partners Fund II, LP",KM,Buyout,low
-"KOALA PACIFIC PARTNERSHIP, L.P.",KOALA,Other / Custom Vehicle,n/a
+"KOALA PACIFIC PARTNERSHIP, L.P.",Koala Pacific,Other / Custom Vehicle,n/a
 "Lambtown, L.P.",Lambtown,Other / Custom Vehicle,n/a
-"Lincoln Plaza Fund, L.P.",Lincoln,Other / Custom Vehicle,n/a
+"Lincoln Plaza Fund, L.P.",Lincoln Plaza,Other / Custom Vehicle,n/a
 "LongRange Capital Fund I, L.P.",LongRange Capital,Buyout,high
-"LS Investments C, L.P.",LS,Other / Custom Vehicle,n/a
-Magnolia Opportunities LLC,Magnolia,Other / Custom Vehicle,n/a
-"Middlefield Road Private Opportunities Fund, L.P.",Middlefield,Other / Custom Vehicle,n/a
-"Moreton Bay SPV, LP",Moreton,Other / Custom Vehicle,n/a
-"Muir Woods Partners, L.P.",Muir,Other / Custom Vehicle,n/a
+"LS Investments C, L.P.",LS Investments,Other / Custom Vehicle,n/a
+Magnolia Opportunities LLC,Magnolia Opportunities,Other / Custom Vehicle,n/a
+"Middlefield Road Private Opportunities Fund, L.P.",Middlefield Road Private,Other / Custom Vehicle,n/a
+"Moreton Bay SPV, LP",Moreton Bay,Other / Custom Vehicle,n/a
+"Muir Woods Partners, L.P.",Muir Woods,Other / Custom Vehicle,n/a
 "NM Pacific, L.P.",New Mountain Capital,Buyout,medium
-"Noosa SPV, LP",Noosa,Other / Custom Vehicle,n/a
-Nordic Bear SCSp,Nordic,Other / Custom Vehicle,n/a
+"Noosa SPV, LP",Noosa SPV,Other / Custom Vehicle,n/a
+Nordic Bear SCSp,Nordic Bear,Other / Custom Vehicle,n/a
 "OHA Black Bear Fund, L.P.",Oak Hill Advisors,Credit / Special Sits,high
-"Orchard Park, L.P.",Orchard,Other / Custom Vehicle,n/a
+"Orchard Park, L.P.",Orchard Park,Other / Custom Vehicle,n/a
 "Otro Capital Fund I-A, LP",Otro Capital,Growth Equity,medium
-"Parker Capital Partners, L.P.",Parker,Other / Custom Vehicle,n/a
+"Parker Capital Partners, L.P.",Parker Capital,Other / Custom Vehicle,n/a
 "Patient Square Equity Partners, LP",Patient Square Capital,Buyout,high
 "Patria Brazilian Private Equity Fund V, L.P.",Patria Investments,Buyout,high
-"Phoenix Bear Partners, L.P.",Phoenix,Other / Custom Vehicle,n/a
-"Pioneer Pier Investments, L.P.",Pioneer,Other / Custom Vehicle,n/a
+"Phoenix Bear Partners, L.P.",Phoenix Bear,Other / Custom Vehicle,n/a
+"Pioneer Pier Investments, L.P.",Pioneer Pier,Other / Custom Vehicle,n/a
 Pophouse Fund (No. 1) SCS,Pophouse,Other / Custom Vehicle,medium
-"Project Quail Opportunities, L.P.",Project,Other / Custom Vehicle,n/a
+"Project Quail Opportunities, L.P.",Project Quail,Other / Custom Vehicle,n/a
 "Prysm Capital Fund I, L.P.",Prysm Capital,Growth Equity,high
 "Prysm Capital Fund II-C, L.P.",Prysm Capital,Growth Equity,high
 PSG Encore L.P.,PSG,Growth Equity,high
 PSG Europe II L.P.,PSG,Growth Equity,high
 PSG V L.P.,PSG,Growth Equity,high
 PSG VI L.P.,PSG,Growth Equity,high
-"Q-Street Capital, L.P.",Q-Street,Other / Custom Vehicle,n/a
+"Q-Street Capital, L.P.",Q-Street Capital,Other / Custom Vehicle,n/a
 RC CC Fund LP,RC,Other / Custom Vehicle,n/a
-Red Admiral Fund LP,Red,Other / Custom Vehicle,n/a
-"Redwood Lane Capital, L.P.",Redwood,Other / Custom Vehicle,n/a
-Redwood Opportunities SCSp,Redwood,Other / Custom Vehicle,n/a
-River City Investments PCC,River,Other / Custom Vehicle,n/a
+Red Admiral Fund LP,Red Admiral,Other / Custom Vehicle,n/a
+"Redwood Lane Capital, L.P.",Redwood Lane Capital,Other / Custom Vehicle,n/a
+Redwood Opportunities SCSp,Redwood Opportunities,Other / Custom Vehicle,n/a
+River City Investments PCC,River City,Other / Custom Vehicle,n/a
 "Riverstone Global Energy and Power Fund V, L.P.",Riverstone,Buyout,high
 "Riverstone Global Energy and Power Fund VI, L.P.",Riverstone,Buyout,high
-Rubicon Partners SCSp,Rubicon,Other / Custom Vehicle,n/a
+Rubicon Partners SCSp,Rubicon Partners,Other / Custom Vehicle,n/a
 "Sacramento Private Equity Partners, L.P.",CalPERS (FoF),Fund of Funds,high
 SAIF Partners III L.P.,SAIF Partners,Growth Equity,medium
 SAIF Partners IV L.P.,SAIF Partners,Growth Equity,medium
-"Samson Partners, L.P.",Samson,Other / Custom Vehicle,n/a
-"Set Builders II, LP",Set,Other / Custom Vehicle,n/a
+"Samson Partners, L.P.",Samson Partners,Other / Custom Vehicle,n/a
+"Set Builders II, LP",Set Builders,Other / Custom Vehicle,n/a
 "Shoreline, L.P.",Shoreline,Other / Custom Vehicle,n/a
-"Sierra Partners, L.P.",Sierra,Other / Custom Vehicle,n/a
+"Sierra Partners, L.P.",Sierra Partners,Other / Custom Vehicle,n/a
 "SignalFire Early Fund IV, L.P.",SignalFire,Venture Capital,high
 "SignalFire Eureka Fund, L.P.",SignalFire,Venture Capital,high
 "SignalFire Sage Fund, L.P.",SignalFire,Venture Capital,high
@@ -132,19 +132,19 @@ SAIF Partners IV L.P.,SAIF Partners,Growth Equity,medium
 "Siris Partners IV, L.P.",Siris Capital,Buyout,high
 "SL SPV-1, L.P.",Silver Lake,Co-Investment,medium
 "SL SPV-2, L.P.",Silver Lake,Co-Investment,medium
-"SPRINGBLUE A, L.P.",SPRINGBLUE,Other / Custom Vehicle,n/a
+"SPRINGBLUE A, L.P.",Springblue,Other / Custom Vehicle,n/a
 "Springblue A-V, L.P.",Springblue,Other / Custom Vehicle,n/a
-"SPRINGBLUE B, L.P.",SPRINGBLUE,Other / Custom Vehicle,n/a
+"SPRINGBLUE B, L.P.",Springblue,Other / Custom Vehicle,n/a
 "Springblue B-III, L.P.",Springblue,Other / Custom Vehicle,n/a
 "SR One Capital Fund II-A, LP",SR One,Venture Capital,high
 "SR One Capital Opportunities Fund I, LP",SR One,Venture Capital,high
-Sunrise Boulevard PE Partners L.P.,Sunrise,Other / Custom Vehicle,n/a
+Sunrise Boulevard PE Partners L.P.,Sunrise Boulevard PE,Other / Custom Vehicle,n/a
 "TA Select Opportunities Fund II-A, L.P.",TA Associates,Growth Equity,high
 "TA XIV-A, L.P.",TA Associates,Growth Equity,high
 "TA XV-A, L.P.",TA Associates,Growth Equity,high
 "Tailwind Capital Partners II, LP",Tailwind Capital,Buyout,high
 "Tailwind Capital Partners III, L.P.",Tailwind Capital,Buyout,high
-"TCC Opportunities, L.P.",TCC,Other / Custom Vehicle,n/a
+"TCC Opportunities, L.P.",TCC Opportunities,Other / Custom Vehicle,n/a
 "TCV X, L.P.",TCV,Growth Equity,high
 "TCV XI, L.P.",TCV,Growth Equity,high
 "The Rise Fund (A), L.P.",TPG,Growth Equity,high
@@ -154,11 +154,11 @@ Sunrise Boulevard PE Partners L.P.,Sunrise,Other / Custom Vehicle,n/a
 "Thoma Bravo Europe Fund, L.P.",Thoma Bravo,Buyout,high
 "Thoma Bravo Fund XIV, L.P.",Thoma Bravo,Buyout,high
 "Thoma Bravo Fund XV, L.P.",Thoma Bravo,Buyout,high
-"Three Pillars Flex Opportunities Fund, LP",Three,Other / Custom Vehicle,n/a
+"Three Pillars Flex Opportunities Fund, LP",Three Pillars Flex,Other / Custom Vehicle,n/a
 "Thrive Capital Partners IX, L.P.",Thrive Capital,Venture Capital,high
 "Thrive Capital Partners Opportunity Fund, L.P.",Thrive Capital,Venture Capital,high
 "Tiger Global Private Investment Partners XV, L.P.",Tiger Global,Growth Equity,high
-"Timber Coast Private Opportunities, L.P.",Timber,Other / Custom Vehicle,n/a
+"Timber Coast Private Opportunities, L.P.",Timber Coast Private,Other / Custom Vehicle,n/a
 "Top Castle Sidecar VII, L.P.",Top Castle,Co-Investment,low
 "TowerBrook Investors IV (Onshore), L.P.",TowerBrook,Buyout,high
 Towerbrook Investors V (Onshore) LP,TowerBrook,Buyout,high
@@ -179,8 +179,8 @@ Towerbrook Structured Opportunities Fund II (Onshore) LP,TowerBrook,Credit / Spe
 "TPG Partners VIII, L.P.",TPG,Buyout,high
 "TPG STAR, L.P.",TPG,Buyout,high
 "TPG Tech Adjacencies II, L.P.",TPG,Growth Equity,high
-"Triangle Investment Opportunities II, L.P.",Triangle,Other / Custom Vehicle,n/a
-"Triangle Investment Opportunities, L.P.",Triangle,Other / Custom Vehicle,n/a
+"Triangle Investment Opportunities II, L.P.",Triangle Investment,Other / Custom Vehicle,n/a
+"Triangle Investment Opportunities, L.P.",Triangle Investment,Other / Custom Vehicle,n/a
 "Trident IX, L.P.",Stone Point Capital,Buyout,high
 Trident VI,Stone Point Capital,Buyout,high
 "Trident VII, L.P.",Stone Point Capital,Buyout,high
@@ -199,8 +199,8 @@ VIP V S.C.Sp.,Vitruvian Partners,Buyout,medium
 "WCAS XIV, L.P.","Welsh, Carson, Anderson & Stowe",Buyout,high
 "Welsh, Carson, Anderson & Stowe XI, L.P.","Welsh, Carson, Anderson & Stowe",Buyout,high
 "Welsh, Carson, Anderson & Stowe XII, L.P.","Welsh, Carson, Anderson & Stowe",Buyout,high
-Whitney Global Partners II L.P.,Whitney,Other / Custom Vehicle,n/a
-Whitney Global Partners L.P.,Whitney,Other / Custom Vehicle,n/a
+Whitney Global Partners II L.P.,Whitney Global,Other / Custom Vehicle,n/a
+Whitney Global Partners L.P.,Whitney Global,Other / Custom Vehicle,n/a
 Wigmore Street (BDC III) LP,Bridgepoint,Co-Investment,low
 "Yucaipa American Alliance Fund II, L.P.",Yucaipa,Buyout,high
 "Yucaipa Corporate Initiatives Fund I, L.P.",Yucaipa,Buyout,high
